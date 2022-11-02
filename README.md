@@ -1,4 +1,4 @@
-# FRJ-2_Jcu.github.io
+# FRJ-2_Jcu_Component_State
 Apa itu JSX, Component dan Use State?
 
 - JSX adalah singkatan dari JavaScript XML. Ini memungkinkan penulisan HTML dalam JavaScript dan mengubah tag HTML menjadi elemen Bereaksi.
@@ -26,8 +26,10 @@ Ada beberapa package untuk instalasi serta menjalankan aplikasi ini menggunakan 
 Setelah dijalankan folder tersebut pilih App.jsx untuk menjalankan eksekusi seperti dibawah ini :
 
   import React from 'react'
-
-  //merupakan component yang bernama App
+  <br>
+  <br>
+  //merupakan component yang bernama App 
+  <br>
   export default function App() {
 
     //ini merupakan state
