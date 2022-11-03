@@ -1,9 +1,8 @@
-# FRJ-2_Jcu_Component_State
+# FRJ-2_JSX_Component_State
 Apa itu JSX, Component dan Use State?
 
 - JSX adalah singkatan dari JavaScript XML. Ini memungkinkan penulisan HTML dalam JavaScript dan mengubah tag HTML menjadi elemen Bereaksi.
-- Component adalah blok bangunan dari aplikasi React. Mereka memungkinkan kami membagi UI menjadi bagian-bagian yang independen dan dapat digunakan kembali, dan  
-  memikirkan setiap bagian secara terpisah.
+- Component adalah blok bangunan dari aplikasi React. Mereka memungkinkan kami membagi UI menjadi bagian-bagian yang independen dan dapat digunakan kembali, dan memikirkan setiap bagian secara terpisah.
 - Use State merupakan dikelola di dalam komponen (mirip dengan variabel yang dideklarasikan dalam suatu fungsi). Props (kependekan dari "properties") dan state 
   keduanya adalah objek JavaScript biasa. Meskipun keduanya menyimpan informasi yang memengaruhi output render komponen, keduanya berbeda dalam satu hal penting: 
   props diteruskan ke komponen (mirip dengan parameter fungsi) sedangkan 'state' 
@@ -25,21 +24,20 @@ Ada beberapa package untuk instalasi serta menjalankan aplikasi ini menggunakan 
 
 Setelah dijalankan folder tersebut pilih App.jsx untuk menjalankan eksekusi seperti dibawah ini :
 
-  import React from 'react'
-  <br>
-  <br>
-  //merupakan component yang bernama App 
-  <br>
-  export default function App() {
+    import React from 'react'
 
-    //ini merupakan state
-    const [hallo, setHallo] = useState()
-  
-    return(
+    //merupakan component yang bernama App 
+    export default function App() {
+
+      //ini merupakan state
+      const [hallo, setHallo] = useState("Selamat Pagi")
+
       //bagian ini merupakan JSX 
-      <div>
-        <h1>{hallo}</h1>
-      </div>
-    )
-  
-  }
+      return(
+        <div>
+          <h1>{hallo}</h1>
+        </div>
+      )
+
+     }
+
